@@ -30,7 +30,7 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
-    emailjs.send( "service_j9daat4","template_lh2c6kg",
+    emailjs.send( "service_j9daat4","template_tlu9hed",
         {
           from_name: form.name,
           to_name: "Divyam Deep",

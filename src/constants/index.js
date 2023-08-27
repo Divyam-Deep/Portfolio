@@ -25,6 +25,16 @@ import {
     threejs,
   } from "../assets";
   
+  import sparkAR from "../image/ar.png"
+  import python from "../image/p.png"
+  import image1 from "../image/1.png"
+  import image2 from "../image/2.png"
+  import image3 from "../image/3.png"
+  import image4 from "../image/4.png"
+  import image5 from "../image/C1.png"
+  import image6 from "../image/c2.jpg"
+  import image7 from "../image/c3.jpg"
+
   export const navLinks = [
     {
       id: "about",
@@ -100,21 +110,21 @@ import {
       name: "figma",
       icon: figma,
     },
-    {
-      name: "Spark Ar",
-      icon: "src/image/ar.png",
-    },
-    {
-      name: "Python",
-      icon: "src/image/p.png",
-    },
+    // {
+    //   name: "Spark Ar",
+    //   icon: sparkAR
+    // },
+    // {
+    //   name: "Python",
+    //   icon: python,
+    // },
   ];
   
   const experiences = [
     {
       title: "P - Blocker",
       company_name: "JavaScript , Html , Css",
-      icon: "src/image/1.png",
+      icon: image1,
       iconBg: "#383E56",
       date: "March 2022",
       points: [
@@ -127,7 +137,7 @@ import {
     {
       title: "AR Music Albums",
       company_name: "Javascript and Typescript",
-      icon: "src/image/2.png",
+      icon: image2,
       iconBg: "#E6DEDD",
       date: "Jun 2022",
       points: [
@@ -139,7 +149,7 @@ import {
     {
       title: "Personalized-Product-Recommendations",
       company_name: "Python",
-      icon: "src/image/3.png",
+      icon: image3,
       iconBg: "#383E56",
       date: "Sep 2022",
       points: [
@@ -151,7 +161,7 @@ import {
     {
       title: "Spotify-AdBlocker",
       company_name: "JavaScript , Html , Css",
-      icon: "src/image/4.png",
+      icon: image4,
       iconBg: "#E6DEDD",
       date: "Jan 2023",
       points: [
@@ -204,7 +214,7 @@ import {
           color: "green-text-gradient",
         },
       ],
-      image: "src/image/c2.jpg",
+      image: image6,
     },
     {
       name: "Artificial Intelligence Intern",
@@ -216,7 +226,7 @@ import {
           color: "blue-text-gradient",
         },
       ],
-      image: "src/image/c3.jpg",
+      image: image7,
     },
     {
       name: "Full Stack Web Dev Intern",
@@ -240,7 +250,7 @@ import {
           color: "orange-text-gradient",
         },
       ],
-      image: "src/image/C1.png"
+      image: image5
     },
   ];
   
